@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todolist.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+<main>
+    <section>
+      <div>
+       <form action="">
+            <br>
+                <table  id="table1" cellspacing="13px">
+                    <tr>
+                       <td>  <label for="Id" style="color: white;">Id</label></td>
+                       <td> <input type="text" placeholder="enter the id" id="Id"> </td>
+                    </tr>
+                    <tr>
+                       <td>  <label for="n"style="color:white;">Name</label></td>
+                       <td>  <input type="text" placeholder="enter the name" id="n">  </td>
+                    </tr>
+                    <tr>
+                      <td> <label for="e"style="color:white;">Email</label></td>
+                      <td> <input type="email"  placeholder="enter the email" id="e"> </td>
+                    </tr>
+                    <tr>
+                      <td><label for="s"style="color:white;">Salary</label></td>
+                      <td> <input type="text" placeholder="enter the salary" id="s">  </td>
+                    </tr>
+                    <tr>
+                      <td><label for="r"style="color:white;">Roll No</label> </td>
+                      <td> <input type="text"  placeholder="enter the roll number" id="r"> 
+                      </td>
+                    </tr>
+                </table>
+            <section id="innerSec">
+                <button title="will add all this details into table">ADD</button>
+                <button title="will Reset the entered details">RESET</button>
+            </section>
+          </div>
+       </form>
+      </div>
+    </section>
+    <!-- display part -->
+    <aside>
+      <div>
+         <section>
+            <br><br>
+            <table border="1" cellspacing="0" cellpadding="10" id="table2">
+                <thead>
+                    <tr>
+                       <th>ID</th>
+                       <th>NAME</th>
+                       <th>EMAIL</th>
+                       <th>SALARY</th>
+                       <th>ROLLNO</th>
+                       <th>MODIFY</th>
+                       <th>TRASH</th>
+                    </tr>
+                </thead>
+                 <tbody></tbody>
+            </table>
+        </section>
+      </div>
+    </aside>
+</main>
+<tfoot>
+  <p id="footer">
+   &copy; 2025 All rights reserved | Nithish tech solutions
+  </p>
+</tfoot>
+    <script src="./todolist.js"></script>
+</body>
+</html>

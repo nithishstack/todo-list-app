@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* MAIN  STARTS*/
+main{
+    display: flex;
+    justify-content: center;
+    /* height: 550px; */
+    height: 529px;
+    /* border: 2px solid red; */
+    background-color: rgb(65, 98, 128);
+}
+/* Main section */
+main>section{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/monitor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+main>section>div{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: fit-content;
+}
+main form{
+    /* border: 2px solid red; */
+    height: fit-content;
+    /* border: 2px solid red; */
+    width: fit-content;
+}
+form span{
+    /* border: 2px solid; */
+    width: fit-content;
+    position: absolute;
+    left: 370px;
+    padding-top: 3px;
+    font-size: 140%;
+}
+main input:first-of-type{
+    position: relative;
+   
+}
+main form input{
+    height: 32px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: large;
+    border: 2px solid rgb(31, 131, 218);
+    outline: none;
+}
+main form input::placeholder{
+    text-indent: 13px;
+    font-size: medium;
+}
+input:hover{
+    transition-delay: 0.20s;
+    color: white;
+    box-shadow: 0 0 5px 1px  rgb(11, 154, 232) ;
+    background-color: rgb(11, 10, 10);
+}
+input:focus{
+    text-indent: 10px;
+}
+main form button{
+    height: 30px;
+    width: 70px;
+    border-radius: 60px;
+    font-size: smaller;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+}
+main form button:hover{
+    background-color: rgba(65, 100, 214, 0.61);
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    border: none;
+    /* border: 2px solid rgb(33, 206, 99); */
+    box-shadow: 0 0 1px 2px  rgba(65, 100, 214, 0.61);
+    transition-duration: 0.20s;
+    transition-timing-function: ease-in;
+
+}
+main form button:first-of-type{
+    /* all: unset; */
+    height: 30px;
+    width: 60px;
+}
+#innerSec{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+#table1{
+    width:400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* main aside  (table2 part)*/
+main>aside{
+    /* border: 2px solid green; */
+    width: 60%;
+    background-position: center;
+    background-size: 100%;
+    background-image: url("./assets/blackBoard.png");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+}
+main>aside>div{
+    /* border: 2px solid blue; */
+    width: 660px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+main>aside>div>section{
+   /* border: 2px solid pink; */
+   width: 660px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#table2{
+    /* border: 1px; */
+    width:660px ;
+    color:white;
+}
+#table2 button:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-weight: 600;
+}
+
+#table2 thead{
+    font-size:100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    /* background-color: black; */
+    background-color: #322d2d;
+}
+#table2 td{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+#footer{
+    /* border: 22px solid; */
+    width: 100%;
+    font-size: small;
+    padding: 2px;
+    text-align: center;
+    /* background: linear-gradient(to top, rgb(52, 78, 104), rgb(65, 98, 128));  */
+    background-color: #333;
+    color: aliceblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}

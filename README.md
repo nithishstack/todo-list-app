@@ -49,17 +49,7 @@ A clean and functional To-Do List / CRUD (Create, Read, Update, Delete) web appl
 
 Created by Chilumula Nithish
 Student Developer | Passionate about Web Development | Java Full Stack Learner
-
----
-
-## 📸 Demo (Optional)
-
-> You can add a screenshot here using:  
-> `![App Screenshot](screenshot.png)`  
-> Or host it using GitHub Pages and link to it.
-
----
-
+--
 ## 📬 Feedback or Contributions
 
 If you find this project helpful or want to contribute, feel free to fork, star ⭐️, or raise a pull request.

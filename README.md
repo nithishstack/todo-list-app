@@ -48,6 +48,7 @@ A clean and functional To-Do List / CRUD (Create, Read, Update, Delete) web appl
 ## 👨‍💻 Author
 
 Created by Chilumula Nithish
+
 Student Developer | Passionate about Web Development | Java Full Stack Learner
 
 ---

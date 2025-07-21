@@ -35,16 +35,6 @@ A clean and functional To-Do List / CRUD (Create, Read, Update, Delete) web appl
 5. Use **Modify** to edit records and **Trash** to delete them.
 
 ---
-
-## 💡 Future Improvements (Optional Ideas)
-
-- Add search or filter functionality
-- Store data in `localStorage` or connect to a backend (e.g., using Java/Spring Boot)
-- Add responsive design for mobile
-- Export data to CSV
-
----
-
 ## 👨‍💻 Author
 
 Created by Chilumula Nithish
